@@ -153,7 +153,7 @@ Find the logged model, and find MLModel file. What's the size of the model? (`mo
 
 * 14,534
 * 9,534
-* 4,534
+* 4,534 - correct
 * 1,534
 
 > Note: typically we do last two steps in one code block.
