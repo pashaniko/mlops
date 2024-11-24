@@ -132,7 +132,7 @@ to use the pickle file already in the image.
 Now run the script with docker. What's the mean predicted duration
 for May 2023? 
 
-* 0.19
+* 0.19 - correct
 * 7.24
 * 14.24
 * 21.19

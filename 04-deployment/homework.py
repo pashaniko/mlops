@@ -30,7 +30,7 @@ def read_data(filename):
     
     return df
 
-
+print('input file:', input_file)
 df = read_data(input_file)
 
 dicts = df[categorical].to_dict(orient='records')
@@ -47,6 +47,7 @@ print('standard deviation of the predicted duration:', y_pred.std())
 # Q2. Preparing the output
 df['ride_id'] = f'{year:04d}/{month:02d}_' + df.index.astype('str')
 
+print('output file:', output_file)
 df_result = pd.DataFrame()
 df_result['ride_id'] = df['ride_id']
 df_result['predicted_duration'] = y_pred
