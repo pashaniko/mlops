@@ -24,7 +24,9 @@ Hint: explore evidently metric `ColumnQuantileMetric` (from `evidently.metrics i
 
 What metric did you choose?
 
-* ColumnQuantileMetric
+```
+ColumnQuantileMetric
+```
 
 
 ## Q3. Monitoring
